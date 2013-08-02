@@ -8,7 +8,7 @@ Do this to run it once:
 
     $(.yourtextarea').centerTextarea();
     
-You currently have to bind this to every keyup for it to work.
+You currently have to bind this to every keyup for it to work live as the user types:
 
     $(.yourtextarea').bind("keyup",function() {
       $(this).centerTextarea();
